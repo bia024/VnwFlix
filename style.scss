@@ -1,0 +1,43 @@
+// SASS intro: Variables, Nesting, Partials, Import, Mixins, Extend/Inheritance
+//SELETORES: Propriedades: valores;
+//Ex: h1 { color: blue; font-size: 12px; }
+
+// 26-09-2025 -> selecionamento através de:
+//tag = selecionar todo mundo
+//class usamos quando queremos reaproveitar o estilo
+// id = quando queremos algo único (selecionar apenas um)
+
+//seletor universal * = seletor global
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    //esses dois eliminam a estilização oficial do navegador
+}
+
+
+
+header {
+    background-color: red;
+}
+
+//qual tag se repete mais o html? a tag img. vou escolhê-la
+
+//tag
+img {
+    width: 300px;
+}
+
+//class
+.card {
+    background-color: rgba(255, 0, 0, 0.189);
+    border: 10px solid green;
+    // opacity: 0.3;
+}
+
+//id
+#bt1 {
+    background-color: green;
+}
+

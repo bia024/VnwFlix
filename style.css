@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+}
+
+img {
+  width: 300px;
+}
+
+.card {
+  background-color: rgba(255, 0, 0, 0.189);
+  border: 10px solid green;
+}
+
+#bt1 {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
