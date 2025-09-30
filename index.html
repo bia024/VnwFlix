@@ -9,14 +9,16 @@
 <body>
     <header>
         <!-- Header -->
-        <h2>Bem-vindo ao VnwFlix</h2>
-        <ul>
-            <li><a href=""> Início </a></li>
-            <li><a href="">Filmes</a></li>
-            <li><a href="">Séries</a></li>
-            <li><a href="">Quem Somos</a></li>
-            <li><a href="">Contate-nos</a></li>
-        </ul>
+        <nav>
+            <h2>Bem-vindos ao VnwFlix</h2>
+            <ul>
+                <li><a href="">Início</a></li>
+                <li><a href="">Filmes</a></li>
+                <li><a href="">Séries</a></li>
+                <li><a href="">Quem Somos</a></li>
+                <li><a href="">Contate-nos</a></li>
+            </ul>
+        </nav>
         
     </header>
     <!-- Main Content -->
@@ -25,12 +27,13 @@
           <!-- Card -->
            <!-- div class= "filme1" também serve como nome -->
             <!-- div nesse contexto é a caixa-pai -->
+             <button class="next"><</button>
        <div class="card"> 
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBxzTNiMhtsFaBdaQRWsTIdxTXTbeXdLKiw&s" alt="Homem-Aranha: Longe de Casa">
             <h2>Homem-Aranha: Longe de Casa</h2>
             <button>Ver Agora</button>
        </div>
-       <div>
+       <div class="card">
         <img src="https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_.jpg" alt="Velozes & Furiosos: Desafio em Tóquio">
         <h2>Velozes & Furiosos: Desafio em Tóquio (2006)</h2>
         <!-- bt ou btn1 é mais semantico? -->
@@ -41,6 +44,7 @@
           <h2>Demon Slayer: Castelo Infinito</h2>
           <button>Ver Agora</button>
        </div>
+       <button class="back">></button>
     </main>
 </body>
 </html>
