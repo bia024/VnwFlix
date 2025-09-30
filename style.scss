@@ -4,10 +4,10 @@
 
 // 26-09-2025 -> selecionamento através de:
 //tag = selecionar todo mundo
-//class usamos quando queremos reaproveitar o estilo
+//class usamos quando queremos reaproveitar/reutilizar o estilo
 // id = quando queremos algo único (selecionar apenas um)
 
-//seletor universal * = seletor global
+//seletor universal * = seletor global - remove os estilos-padrões do navegador
 
 * {
     margin: 0;
@@ -20,6 +20,12 @@
 
 header {
     background-color: red;
+    display: flex;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    // text-align: center;
 }
 
 //qual tag se repete mais o html? a tag img. vou escolhê-la
@@ -32,12 +38,38 @@ img {
 //class
 .card {
     background-color: rgba(255, 0, 0, 0.189);
-    border: 10px solid green;
+    border: 10px solid rgb(44, 250, 44);
+    border-radius: 10px;
     // opacity: 0.3;
+    width: 30vw;
+    padding: 10px;
+
+    img {
+        //NÃO USAR PX AQUI, É MEDIDA RELATIVA
+        // se ajusta de acordo com a caixa-pai
+        width: 100%;
+        height: 40vh;
+    }
+    button {
+        background-color: green;
+        width: 100%;
+        cursor: pointer;
+    }
 }
 
-//id
+//id;
 #bt1 {
     background-color: green;
 }
 
+
+
+
+//Medidas: fixas, relativas
+//medidas fixas não se adaptam , exemplo: px (pixel). ex: se eu tenho uma tela maior, e eu for usar pixel, vai ficar de boa pra mim, mas na outra máquina nao
+//medidas relativas mudam conforme o tamanho da tela (%, VW - viewport width - , VH - viewport height - ) -> smartwatch são usados com essas responsividades////// viewport - janela de definição
+
+
+//obs: % - relativo ao pai / vw vh - relativo a tela
+
+//px - margin, padding, trabalhar com o tamanho da fonte (aula de tipografia)
