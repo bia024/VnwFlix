@@ -91,4 +91,8 @@ main h2 {
   background-color: red;
   width: 3vw;
   height: 5vh;
+}
+
+header {
+  background-color: rgba(0, 47, 255, 0.733);
 }/*# sourceMappingURL=style.css.map */

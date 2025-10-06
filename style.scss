@@ -135,3 +135,17 @@ main {
 //obs: % - relativo ao pai / vw vh - relativo a tela
 
 //px - margin, padding, trabalhar com o tamanho da fonte (aula de tipografia)
+
+
+
+//dia 03-10-2025 -> Cores e Tipografia
+
+
+// chamar sempre pela Header, quando ela é única. Header é Header né, pai?!
+header {
+    // cores em inglês: red,yellow,green,pink
+    // RGB (RED, GREEN, BLUE). ele tem uma particularidade de ir ao 0 a 255 em cores. 0 é menor valor, 255 é o maior valor
+    // RGBA
+    background-color: rgba(0, 47, 255, 0.733);
+
+}
