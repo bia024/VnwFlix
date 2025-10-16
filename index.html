@@ -3,48 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
     <link rel="stylesheet" href="style.css" />
     <title>VnwFlix</title>
 </head>
 <body>
     <header>
         <!-- Header -->
-        <nav>
-            <h2>Bem-vindos ao VnwFlix</h2>
+            <h2>VNW FLIX</h2>
             <ul>
                 <li><a href="">Início</a></li>
                 <li><a href="">Filmes</a></li>
-                <li><a href="">Séries</a></li>
-                <li><a href="">Quem Somos</a></li>
-                <li><a href="">Contate-nos</a></li>
+                <li><a href="">Lançamentos</a></li>
             </ul>
-        </nav>
-        
     </header>
+
     <!-- Main Content -->
     <main>
-        <!--  Caution with divs-->
-          <!-- Card -->
-           <!-- div class= "filme1" também serve como nome -->
-            <!-- div nesse contexto é a caixa-pai -->
-             <button class="next"><</button>
-       <div class="card"> 
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBxzTNiMhtsFaBdaQRWsTIdxTXTbeXdLKiw&s" alt="Homem-Aranha: Longe de Casa">
-            <h2>Homem-Aranha: Longe de Casa</h2>
-            <button>Ver Agora</button>
-       </div>
-       <div class="card">
-        <img src="https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_.jpg" alt="Velozes & Furiosos: Desafio em Tóquio">
-        <h2>Velozes & Furiosos: Desafio em Tóquio (2006)</h2>
-        <!-- bt ou btn1 é mais semantico? -->
-        <button id= "bt1">Ver Agora</button>
-       </div>
-         <div class= "card">
-          <img src="./img/animeDemonS.jpg" alt="Demon Slayer: Castelo Infinito">
-          <h2>Demon Slayer: Castelo Infinito</h2>
-          <button>Ver Agora</button>
-       </div>
-       <button class="back">></button>
+        <section class="banner"></section>
+
+        <section class="filmes">
+           <!-- Card -->
+            <div class="card"> 
+                <img
+                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzBxzTNiMhtsFaBdaQRWsTIdxTXTbeXdLKiw&s" 
+                 alt="Homem-Aranha: Longe de Casa"
+                />
+                <h2>Homem-Aranha: Longe de Casa</h2>
+                <button>Ver Agora</button>
+            </div>
+            <div class="card">
+                <img
+                 src="https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_.jpg" 
+                 alt="Velozes & Furiosos: Desafio em Tóquio"
+                />
+                <h2>Velozes & Furiosos: Desafio em Tóquio</h2>
+                <!-- bt ou btn1 é mais semantico? -->
+                <button id= "bt1">Ver Agora</button>
+            </div>
+            <div class= "card">
+                <img
+                 src="./img/animeDemonS.jpg" 
+                 alt="Demon Slayer: Castelo Infinito"
+                />
+                <h2>Demon Slayer: Castelo Infinito</h2>
+                <button>Ver Agora</button>
+            </div>
+            <div class= "card">
+                <img
+                 src="./img/animeDemonS.jpg" 
+                 alt="Demon Slayer: Castelo Infinito"
+                />
+                <h2>Demon Slayer: Castelo Infinito</h2>
+                <button>Ver Agora</button>
+            </div>
+            <div class= "card">
+                <img
+                 src="./img/animeDemonS.jpg" 
+                 alt="Demon Slayer: Castelo Infinito"
+                />
+                <h2>Demon Slayer: Castelo Infinito</h2>
+                <button>Ver Agora</button>
+            </div>
+            <div class= "card">
+                <img
+                 src="./img/animeDemonS.jpg" 
+                 alt="Demon Slayer: Castelo Infinito"
+                />
+                <h2>Demon Slayer: Castelo Infinito</h2>
+                <button>Ver Agora</button>
+            <div class="card">
+                <img
+                 src="https://upload.wikimedia.org/wikipedia/pt/1/1d/Harry_Potter_Pedra_Filosofal_2001.jpg"
+                 alt="Harry Potter e a Pedra Filosofal"
+                />
+                <h2>Harry Potter e a Pedra Filosofal</h2>
+                <button>Ver agora</button>
+            </div>
+        </section>
     </main>
 </body>
 </html>
